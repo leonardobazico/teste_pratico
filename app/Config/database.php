@@ -69,7 +69,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'root',
+		'password' => '123456',
 		'database' => 'teste_pratico',
 		'prefix' => '',
 		'encoding' => 'utf8',
