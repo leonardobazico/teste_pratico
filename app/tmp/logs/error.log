@@ -128,3 +128,527 @@ Request URL: /teste_pratico/agenda
 Stack Trace:
 #0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-07-27 15:36:00 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/agenda
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 16:17:49 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/agenda
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 16:40:54 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/agenda
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 16:41:22 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/agenda
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 16:43:00 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/agenda
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 16:43:11 Error: [MissingViewException] View file "/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Agenda/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Agenda/index.ctp',
+)
+Request URL: /teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#4 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-27 16:46:34 Error: [MissingActionException] Action AgendasController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'AgendasController',
+  'action' => '1',
+)
+Request URL: /teste_pratico/agendas/1
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-27 16:47:42 Error: [MissingActionException] Action AgendasController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'AgendasController',
+  'action' => '1',
+)
+Request URL: /teste_pratico/agendas/1
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-27 17:10:57 Error: [MissingActionException] Action AgendasController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'AgendasController',
+  'action' => 'delete',
+)
+Request URL: /teste_pratico/agendas/delete/1
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-27 17:11:06 Error: [MissingViewException] View file "/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Agendas/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Agendas/edit.ctp',
+)
+Request URL: /teste_pratico/agendas/edit/1
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#4 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-27 17:19:45 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/Controller/AgendasController.php, line 46]
+2014-07-27 17:19:45 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /teste_pratico/agendas/delete/3
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/m...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/m...', 46, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/m...', 46, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 17:27:58 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /teste_pratico/
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Component/AuthComponent.php(500): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Component/AuthComponent.php(462): AuthComponent->constructAuthorize()
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#8 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#10 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-27 17:29:53 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agenda
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:30:09 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agenda
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:31:09 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/index
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:31:22 Error: [MissingViewException] View file "/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Users/index.ctp',
+)
+Request URL: /teste_pratico/users
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-27 17:31:32 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agenda
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:33:17 Error: Fatal Error (1): Call to undefined function view() in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/Controller/UsersController.php, line 12]
+2014-07-27 17:33:17 Error: [FatalErrorException] Call to undefined function view()
+Request URL: /teste_pratico/users
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/m...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/m...', 12, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/m...', 12, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 17:33:50 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/agenda
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:34:48 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/agenda
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:35:52 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:45:58 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:49:58 Error: [MissingActionException] Action AgendasController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'AgendasController',
+  'action' => '1',
+)
+Request URL: /teste_pratico/agendas/1
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-27 17:50:06 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:50:14 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:50:16 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:50:17 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:50:21 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:50:21 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:51:19 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:51:20 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:51:20 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:51:21 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:51:23 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:51:24 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:51:25 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:51:25 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:52:26 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 17:52:26 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 18:03:54 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/Controller/AgendasController.php, line 11]
+2014-07-27 18:03:54 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/m...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/m...', 11, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/m...', 11, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 18:34:59 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/View.php(837): HelperCollection->__isset('Auth')
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Layouts/default.ctp(41): View->__get('Auth')
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/View.php(948): include('/Applications/m...')
+#4 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/View.php(910): View->_evaluate('/Applications/m...', Array)
+#5 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/View.php(542): View->_render('/Applications/m...')
+#6 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#7 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#8 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#9 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#10 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-27 18:36:34 Error: Fatal Error (4): syntax error, unexpected '/' in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Layouts/default.ctp, line 41]
+2014-07-27 18:36:34 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/m...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/m...', 41, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/m...', 41, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 18:36:45 Error: Fatal Error (4): syntax error, unexpected '/' in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Layouts/default.ctp, line 41]
+2014-07-27 18:36:45 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/m...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/m...', 41, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/m...', 41, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 18:36:46 Error: Fatal Error (4): syntax error, unexpected '/' in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Layouts/default.ctp, line 41]
+2014-07-27 18:36:46 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/m...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/m...', 41, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/m...', 41, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 18:37:01 Error: [MissingActionException] Action AgendasController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'AgendasController',
+  'action' => 'users',
+)
+Request URL: /teste_pratico/agendas/users/logout
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-27 18:39:57 Error: [MissingActionException] Action AgendasController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'AgendasController',
+  'action' => 'users',
+)
+Request URL: /teste_pratico/agendas/users/logout
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-27 18:39:57 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Layouts/default.ctp, line 46]
+2014-07-27 18:39:57 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /teste_pratico/agendas/users/logout
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/m...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/m...', 46, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/m...', 46, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 18:40:07 Error: [MissingActionException] Action AgendasController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'AgendasController',
+  'action' => 'users',
+)
+Request URL: /teste_pratico/agendas/users/logout
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-27 18:48:03 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 18:48:10 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 18:48:15 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 18:48:15 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 18:48:48 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

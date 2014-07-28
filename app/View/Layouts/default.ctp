@@ -38,7 +38,13 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<h1 style="float:left;">App Agenda</h1>
+			<span>
+			<?php
+            if (AuthComponent::user()) 
+               echo $this->Html->link('Log out', array('controller' => 'users', 'action' => 'logout'));
+			?>
+			</span>
 		</div>
 		<div id="content">
 

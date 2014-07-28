@@ -35,11 +35,15 @@ class AppController extends Controller {
       'DebugKit.Toolbar',
       'Session',
       'Auth' => array(
-         'loginRedirect' => array('controller' => 'agenda', 'action' => 'index'),
-         'logoutRedirect' => array('controller' => 'pages', 'action' => 'display', 'home')
+         'loginRedirect' => array('controller' => 'agendas', 'action' => 'index'),
+         'logoutRedirect' => array('controller' => 'users', 'action' => 'login'),
+         'authorize' => array('Controller')
       )
    );
-
+   
+   public function isAuthorized($user) {
+       return false;//as permissões serão delegados nos controllers
+   }
    function beforeFilter() {
       $this->Auth->allow('index', 'view');
    }
