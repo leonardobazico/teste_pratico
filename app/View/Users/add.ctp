@@ -9,5 +9,5 @@
         ));*/
     ?>
     </fieldset>
-<?php echo $this->Form->end(__('Criar'));?>
+<?php echo $this->Form->end(array('label' => 'Criar', 'class' => 'btn btn-xs btn-success', 'div' => false));?>
 </div>

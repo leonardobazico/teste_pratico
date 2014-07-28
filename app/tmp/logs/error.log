@@ -652,3 +652,132 @@ Request URL: /teste_pratico/teste_pratico/agendas
 Stack Trace:
 #0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-07-27 20:07:12 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Layouts/default.ctp, line 2]
+2014-07-27 20:07:12 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/m...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/m...', 2, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/m...', 2, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 20:09:05 Error: Fatal Error (1): Call to a member function link() on a non-object in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Layouts/default.ctp, line 17]
+2014-07-27 20:09:05 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/m...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/m...', 17, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/m...', 17, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 20:09:51 Error: Fatal Error (1): Call to a member function link() on a non-object in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Layouts/default.ctp, line 16]
+2014-07-27 20:09:51 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/m...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/m...', 16, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/m...', 16, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 20:52:36 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Users/login.ctp, line 11]
+2014-07-27 20:52:36 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /teste_pratico/users/login
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/m...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/m...', 11, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/m...', 11, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 20:56:05 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ')' in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Agendas/index.ctp, line 2]
+2014-07-27 20:56:05 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ')'
+Request URL: /teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/m...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/m...', 2, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/m...', 2, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 21:18:30 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Agendas/index.ctp, line 25]
+2014-07-27 21:18:30 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /teste_pratico/agendas/
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/m...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/m...', 25, Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/m...', 25, Array)
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-27 22:05:23 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/agenda/delete
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 22:05:40 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /teste_pratico/agendas/delete
+Stack Trace:
+#0 [internal function]: AgendasController->delete()
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AgendasController), Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#4 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-27 22:05:59 Error: [MissingControllerException] Controller class TestePraticoController could not be found.
+Exception Attributes: array (
+  'class' => 'TestePraticoController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/teste_pratico/agendas
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 22:06:06 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /teste_pratico/agendas/delete/6
+Stack Trace:
+#0 [internal function]: AgendasController->delete('6')
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AgendasController), Array)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#4 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-27 22:07:02 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /teste_pratico/agenda/delete
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-27 22:08:05 Error: [MissingViewException] View file "/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Agendas/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Agendas/delete.ctp',
+)
+Request URL: /teste_pratico/agendas/delete
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#4 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-27 22:08:25 Error: [MissingViewException] View file "/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Agendas/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/View/Agendas/delete.ctp',
+)
+Request URL: /teste_pratico/agendas/delete
+Stack Trace:
+#0 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgendasController), Object(CakeRequest))
+#4 /Applications/mampstack-5.4.30-0/apache2/htdocs/teste_pratico/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -1,6 +1,5 @@
 <?php
 class AgendasController extends AppController {
-    public $helpers = array ('Html','Form');
     public $name = 'Agendas';
     
     function index() {
